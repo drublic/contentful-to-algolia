@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Transfer Contentful data to Algolia",
   "main": "index.js",
-  "repository": "",
+  "repository": "git@github.com:drublic/contentful-to-algolia.git",
   "author": "Hans Christian Reinl <info@drublic.de>",
   "license": "MIT",
   "scripts": {
