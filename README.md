@@ -40,3 +40,8 @@ You can find a sample configuration in [config.sample.js](./config.sample.js).
 * Remove elements which are not used anymore
 * Use Contentful's Syncronisation API
 * Tests
+
+## License
+
+This project is under MIT license, 2017, ⓒ Hans Christian Reinl.
+Read more in [LICENSE](./LICENSE).
