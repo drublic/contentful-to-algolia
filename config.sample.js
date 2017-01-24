@@ -15,4 +15,14 @@ module.exports = {
     space: process.env.CONTENTFUL_SPACE,
     host: 'preview.contentful.com' // for Drafts
   },
+
+  locales: [
+    [
+      'en-US',
+      'en'
+    ], [
+      'de-DE',
+      'de'
+    ]
+  ]
 };
