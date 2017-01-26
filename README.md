@@ -2,7 +2,7 @@
 
 The application syncs content between Contentful and Algolia.
 You can configure the service to run with Drafts (Preview API) from Contentful
-and put it in different indexes in Algolia. The previx of each index can be
+and put it in different indexes in Algolia. The prefix of each index can be
 configured.
 
 ## Install the module
@@ -25,7 +25,7 @@ The main method of Sync:
 
     // Sync data
     Sync.sync(
-      Array <types>,
+      String <type>,
       String <indexName>,
       [Function <callback>]
     );
