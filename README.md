@@ -30,6 +30,12 @@ The main method of Sync:
       [Function <callback>]
     );
 
+## Note
+
+Algolia indexes need to have the following attributes searchable:
+
+* `id`
+* `locale`
 
 ## Example config
 
