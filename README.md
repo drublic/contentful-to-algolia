@@ -12,8 +12,16 @@ configured.
 ## Documentation
 
 The main method of Sync:
-- `sync(Array <types>, String <indexName>, [Function <callback>])`
-  Sync multiple content types from Contentful to Algolia
+
+    sync(
+      Array <types>,
+      String <indexName>,
+      [Function <callback>],
+      [String <entryId>],
+      [Function <manipulateSingle>]
+    )
+
+Sync multiple content types from Contentful to Algolia
 
 ## Usage
 
@@ -27,7 +35,9 @@ The main method of Sync:
     Sync.sync(
       String <type>,
       String <indexName>,
-      [Function <callback>]
+      [Function <callback>],
+      [String <entryId>],
+      [Function <manipulateSingle>]
     );
 
 ## Note
