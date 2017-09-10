@@ -40,13 +40,6 @@ Sync multiple content types from Contentful to Algolia
       [Function <manipulateSingle>]
     );
 
-## Note
-
-Algolia indexes need to have the following attributes searchable:
-
-* `id`
-* `locale`
-
 ## Example config
 
 You can find a sample configuration in [config.sample.js](./config.sample.js).
