@@ -1,6 +1,6 @@
 {
   "name": "contentful-to-algolia",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "description": "Transfer Contentful data to Algolia",
   "main": "index.js",
   "repository": "git@github.com:drublic/contentful-to-algolia.git",
