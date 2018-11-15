@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "algoliasearch": "^3.24.11",
-    "contentful": "^5.1.1",
+    "contentful": "^6.1.0",
     "eslint": "^3.13.1",
     "lodash": "^4.17.4"
   },
