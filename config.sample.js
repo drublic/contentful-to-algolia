@@ -13,7 +13,8 @@ module.exports = {
   contentful: {
     accessToken: process.env.CONTENTFUL_ACCESSTOKEN,
     space: process.env.CONTENTFUL_SPACE,
-    host: 'preview.contentful.com' // for Drafts
+    host: 'preview.contentful.com', // for Drafts
+    environment: 'master' // the default env on Contentful
   },
 
   locales: [
