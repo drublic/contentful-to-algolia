@@ -18,7 +18,8 @@ The main method of Sync:
       String <indexName>,
       [Function <callback>],
       [String <entryId>],
-      [Function <manipulateSingle>]
+      [Function <manipulateSingle>],
+      [Function <manipulateEntries>]
     )
 
 Sync multiple content types from Contentful to Algolia
@@ -37,7 +38,8 @@ Sync multiple content types from Contentful to Algolia
       String <indexName>,
       [Function <callback>],
       [String <entryId>],
-      [Function <manipulateSingle>]
+      [Function <manipulateSingle>],
+      [Function <manipulateEntries>]
     );
 
 ## Example config
